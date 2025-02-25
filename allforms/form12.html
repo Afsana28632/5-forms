@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+h1{
+    color: blue
+}
+p{
+    color: chocolate
+}
+input{
+    width:450px ;
+    margin-bottom: 10px
+}
+</style>
+<body>
+  <form action="#" method="GET" autocomplete="on" id="form1">
+<h1>the input of this form is not autocomplete but just Email is autocomplete!!</h1>
+<label for="Name">First Name:</label>
+<input type="text" pattern="[A-Za-z]{10}" placeholder="Type your name just with 10 charecters" autocomplete="off" maxlength="10">
+<br>
+<label for="Name">last Name:</label>
+<input type="text" pattern="[A-Za-z]{15}" placeholder="Type your last name just with 15 charecters" autocomplete="off" maxlength="15">
+<br>
+<label for="email">Email: </label>
+<input type="email" placeholder="your email will be autocompete" autocomplete="on">
+<br>
+<label for="password">password</label>
+<p>you write a password like this type (#23Ak#@45):you can change numbers and English alphabet</p>
+<input type="password" autocomplete="off" pattern="#[0-9]{2}[A-Za-z]{2}#@[0-9]{2}"> <br>
+<input type="submit" value="simple submit" autocomplete="off"> <br>
+<input type="submit" formmethod="POST" value="First Branch" autocomplete="off"> <br>
+<input type="submit" formmethod="POST" value="Second Branch"  autocomplete="off"> <br>
+<input type="submit" formtarget="Blank" formmethod="POST" value="send data in Third Branch On New tab" autocomplete="off">  <br>
+
+  </form>
+  <label for="text"> <mark> New input Out side the form!</mark> </label> <br>
+  <label for="subject">Subject</label> <br>
+  <input type="text" id="" placeholder="your subject for message" form="form1"><br>
+  <label for="message">Message</label> <br>
+  <textarea name="" id="" cols="75" rows="10">ddcsd</textarea>
+
+  
+</body>
+</html>

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+body{
+    background-color: rgb(99, 44, 109);
+    font-size: 10px
+}
+h1{
+    text-align: center
+}
+form{
+    background-color: whitesmoke;
+width:40% ;
+padding:30px ;
+height:600px ;
+}
+#a{
+   margin-left: 40%; 
+    border: 2px solid rgb(122, 11, 11);
+background-color: rgb(204, 100, 100);
+border-radius:60% ;
+text-align: center;
+color: whitesmoke;
+padding:5px ;
+}
+input{
+    padding-right: 70px;
+ margin-bottom: 5px;
+
+}
+.a{
+    border: 2px solid rgb(122, 11, 11);
+background-color: rgb(204, 100, 100);
+border-radius:60% ;
+text-align: center;
+color: whitesmoke;
+padding:5px ;
+}
+.b{
+    border: 2px solid rgb(122, 11, 11);
+background-color: rgb(204, 100, 100);
+border-radius:60% ;
+text-align: center;
+color: whitesmoke;
+padding:5px ;
+margin-left: 10%;
+float: right
+}
+:hover{
+    border: 2px solid rgb(80, 171, 247)
+}
+</style>
+
+<body>
+ <form action="get">
+<h1>form</h1>
+<label for="name">Name</label> <br>
+<input type="text" value="Name" style="width:80% ;"><br>
+<label for="last name">Last Name</label><br>
+<input type="text" placeholder="Your Last Name " style="width:80% ;"><br>
+<label for="email">Email</label><br>
+<input type="email" placeholder="EX:zhilaahmadi@gmail.com" title="Please enter an email address" required style="width:80% ;"><br>
+<label for="phone">Phone</label><br>
+<input type="tel" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}" autofocus style="width:80% ;"><br>
+<label for="SSN">SSN</label> <br>
+<input type="number" title="just 4 numbers" placeholder="****"><br>
+<label for="date">Date</label><br>
+<input type="date" style="width:70% ;"><br>
+<label for="date">Date</label><br>
+<input type="datetime-local" style="width:90% ;"><br>
+<label for="Date">Date</label><br>
+<input type="time"><br>
+<label for="Password">Password</label> <br>
+<input type="password" placeholder="@#AD67" title="you must contain the letters of the number and the sign" style="width:80% ;"><br>
+<label for="url">URL</label><br>
+<input type="text" value="https://www.google.com/" style="width:80% ;"><br>
+<label for="gender">Gebder</label><br>
+<input type="radio"> <label for="gender">Male</label><br>
+<input type="radio"> <label for="gender">Feale</label><br>
+<input type="radio"> <label for="gender">Other</label><br>
+<label for="number">Number</label> 
+<input type="number" min="10" max="115" step="5"> <br>
+
+<input list="cities" name="cities" style="width:80% ;">
+<datalist id="cities">
+  <option value="Kabul">
+  <option value="Kandahar">
+  <option value="Konar">
+  <option value="Khost">
+  <option value="Kapisa">
+</datalist> <br>
+<select name="Country" id="Country">
+    <option value="Afghanistan">Afghanistan</option>
+    <option value="Iran">Iran</option>
+    <option value="Pakistan">Pakistan</option>
+</select>
+
+<input type="reset" id="a" >
+<input type="submit" class="a">
+<input type="button" onclick="alert('Hello World!')" value="Button Java Script Alert" class="b">
+
+ </form> 
+
+</body>
+</html>

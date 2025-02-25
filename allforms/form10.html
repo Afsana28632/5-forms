@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<style>
+body{
+    background-color: rgb(90, 89, 72);
+    font-size: 22px
+}
+th{
+    background-color: rgb(6, 138, 105);
+height:50px ;
+}
+#s{
+    background-color: rgb(6, 138, 105);
+    color: whitesmoke ;
+    padding:15px ;
+    margin-left: 160%}
+
+table{
+    background-color: whitesmoke;
+    margin-left: 20%
+}
+input{
+    font-size: 22px;
+    padding:3px ; 
+    padding-right: 50px  
+}
+
+
+
+</style>
+<body>
+    <form action="">
+        <table>
+<tr>
+    <th colspan="2">Create Account</th>
+</tr>
+<tr>
+    <td><label for="">first name*</label> <br>
+        <input type="text" placeholder="Enter your first name"></td> 
+    
+    <td><label for="">Last name*</label><br>
+    <input type="text" placeholder="Enter your last name"></td>
+</tr>
+<tr>
+    <td colspan="2"><label for="">Email</label> <br>
+    <input type="email" ></td>
+</tr>
+<tr>
+    <td><label for="">Pasword*</label> <br>
+        <input type="text" placeholder="Enter your Pasword "></td> 
+    <td><label for="">Conferm password*</label><br>
+    <input type="text" placeholder="Enter your Pasword  again"></td>
+</tr>
+
+<tr>
+<td>
+    <label for="">Gender:</label> <br>
+    <input type="radio">
+    <label for="">Male</label>
+    <input type="radio">
+    <label for="">Female</label>
+</td>
+<td>
+     <label for="">Hobbies:</label> <br>
+    <input type="radio">
+    <label for="">Music</label>
+    <input type="radio">
+    <label for="">Sport</label>   
+    <input type="radio">
+    <label for="">Travel</label>
+    <input type="radio">
+    <label for="">Movies</label>  
+</td>
+</tr>
+<tr>
+<td>
+    <label for="">sourse of income</label> <br>
+    <input list="list"><datalist>
+        <option value="Employee">Employee</option>
+        <option value="EmpITloyee">IT</option>
+    </datalist>
+</td>
+<td>
+    <label for="">income</label> <br>
+    <input type="range">
+</td>
+</tr>
+<tr>
+    <td><label for="">Update profile picture</label> <br>
+        <input type="text" placeholder="Choose picture"></td> 
+    
+    <td><label for="">Age</label><br>
+    <input type="text" placeholder="enter your age"></td>
+</tr>
+<tr>
+      <td colspan="2"><label for="">Bio</label><br>
+    <textarea name="" id="" cols="110" rows="5"></textarea></td>  
+</tr>
+<tr>
+ <td ><input type="submit"value="create" id="s"></td> 
+</tr>
+        </table>
+    </form>
+</body>
+</html>
